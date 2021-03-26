@@ -8,20 +8,35 @@
 
 #showcase {
     text-align: center;
-    width: 65%;
-    margin-left: 200px;
-    box-sizing: content-box;
-    height: 500px;
-    background: fixed;
-    background-image: url(C:\Users\SONY\Day18\ex09\img\gigi-logo.png)
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 700px;
+    padding-right: 100px;
+    background-image: url(../../ex09/img/gigi-logo.png);
+    background-size: contain;
+    background-size: auto;
+    filter: grayscale(100%);
 }
 
 #showcase h1 {
     position: relative;
     display: inline-block;
-    margin: 0 25px;
-    padding: 0 10px;
+    margin: 50px 25px;
+    padding: 50 20px;
     height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    width: 100%;
+}
+
+#showcase p {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
 }
 
 li {
@@ -32,6 +47,7 @@ li {
 
 .container {
     display: inline;
+    width: 100%;
 }
 
 header {
@@ -39,12 +55,16 @@ header {
     background-color: black;
     color: white;
     height: 80px;
-    padding-right: 70px;
-    padding-inline-start: 60px;
+    padding-right: 40px;
+    padding-inline-start: 100%;
+    width: 100%;
 }
 
 .current {
     color: red;
+    margin-left: 50%;
+    padding-right: 30px;
+    padding-inline-end: 50px;
 }
 
 #newsletter {
@@ -53,34 +73,66 @@ header {
     color: white;
     font-size: 15px;
     height: 80px;
+    width: 100%;
+}
+
+#newsletter h1 {
+    color: white;
+    margin-left: 10%;
+    padding-top: 1%;
 }
 
 #branding h1 {
     color: white;
 }
 
-span {
-    visibility: hidden;
+form {
+    margin-left: 30%;
+}
+
+button {
+    background-color: orangered;
+    width: 8%;
+    height: 25px;
+}
+
+input {
+    height: 25px;
+    width: 20%;
+    margin-top: 30px;
 }
 
 #boxes {
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin-top: 40px;
-    text-align: center;
+    width: 65%;
+    height: 60%;
+    padding-left: 50%;
 }
 
 footer {
     text-align: center;
     background-color: orangered;
     height: 50px;
-    width: 95%;
+    width: 100%;
     color: white;
     padding-top: 7px;
     margin-bottom: 7px;
+    padding-right: 100px;
 }
 
 #html-logo img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
+    margin: 3%;
 }
+
+#html-logo p {}
+
+#html-logo h3 {}
+
+#css-logo img {}
+
+#css-logo h3 {}
+
+css-logo p {}
+
+js-logo img {}
